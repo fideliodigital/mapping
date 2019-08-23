@@ -13,6 +13,13 @@ h1, h2
     font-family: 'Coda';
 }
 
+/*esto hace que el sitio no se muestre si no hay password*/
+.main-container
+{
+  /*visibility: hidden;*/
+  display: none;
+}
+
 /* separa los titulos de sección */
 .level2 
 {
