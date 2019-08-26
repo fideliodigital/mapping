@@ -41,6 +41,12 @@ h2
 {
     margin-top: 549px;
     color: white;
+    background-color: #B2D235;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 220px;
+    padding-top: 60px;
+    padding-left: 30px;
 }
 
 /* ---------------modifica el menu que R genera-------------  */
