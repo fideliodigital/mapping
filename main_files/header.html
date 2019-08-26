@@ -1,4 +1,6 @@
 <head>
+<link rel="shortcut icon" href="main_img/favicon/favicon.ico" type="image/x-icon">
+<link rel="icon" href="main_img/favicon/favicon.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Coda&display=swap" rel="stylesheet">
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -13,8 +15,35 @@
 <script>
 	window.onload = function()
 	{
-		document.getElementById("TOC").innerHTML = "<div class='headerMenu'>HVM Ecosystem Mapping<p>August, 2019</p></div><div class='subcontenedorMenu'>" + document.getElementById("TOC").innerHTML + "</div><div class='footerMenu'><img class='logoFidelio' src='main_img/logoFidelio.png'></div>"
+  document.getElementById("TOC").innerHTML = "<div class='headerMenu'>HVM Ecosystem Mapping<p>August, 2019</p></div><div class='subcontenedorMenu'>" + document.getElementById("TOC").innerHTML + "</div><div class='footerMenu'><img class='logoFidelio' src='main_img/logoFidelio.png'></div>"
   $('link[href="https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.css"]').remove()
-	};
+  /*
+  //funcion contraseña (más el css de display:none en main-container)
+  //oculta el contenido
+  document.getElementsByClassName("main-container")[0].style.display= "none"
+  //muestra el prompt
+  var testV = 1;
+  while (testV < 2)
+    {
+      var pass1 = prompt('Por favor ingrese la contraseña','');
+      if (!pass1)
+        history.go(-1);
+      if (pass1 === "goal2020")
+      {
+        document.getElementsByClassName("main-container")[0].style.display= "block"
+        break;
+      }
+      else
+      {
+      testV += 1;
+      var pass1 = "contraseña";
+      alert('Acceso denegado');
+      }
+    }
+  if (testV ==3)
+    history.go(-1);
+    return " ";
+  */
+  };
 </script>
 </head>
