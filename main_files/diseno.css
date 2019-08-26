@@ -1,9 +1,12 @@
-body {
+ body {
     background-image: url(../main_img/header.png);
     background-repeat: no-repeat;
-    /* background-size: 1680px 768px;*/
     background-size: 100%;
-}
+    
+} 
+
+
+
 h3, p
 {
     font-family: 'Open-Sans';
@@ -107,7 +110,7 @@ h2
 
 .headerMenu
 {
-    height: 111px;
+    height: 121px;
     color: white;
     font-family: Open-Sans;
     padding-top: 56px;
@@ -126,9 +129,9 @@ h2
 .subcontenedorMenu
 {
     padding: 10px 21px;
-    background-color: #e3e3e3cc;
+    background-color: #ffffffd1;
     height: calc(100vh - 121px - 82px);   
-    min-height: 563px;
+    min-height: 416px;
 }
 
 .footerMenu
@@ -195,7 +198,21 @@ h2
 /* cambia el tamaño de las gráficas de tópicos y las corre a la izquierda para que quepan juntas */
 #topic-modelling > [id^=ldavis_el]
 {
-    transform: scale(0.75) translateX(-133px);
+    transform: scale(0.75) translateX(-182px);
+    /* //evita que se desborde el conteido y deje más ancha toda la página pero tambien que quede muy pqeueña */
+    overflow-x: scroll;
+    width: calc(100% + 310px);
+}
+
+/* cambia el tamaño de la gráfica para que no genere scroll al ser más grande que el resto de la página */
+
+.bk-root
+{
+    
+    overflow-x: scroll;
+    transform: scale(0.85) translateX(-66px);
+    
+    width: calc(100% + 167px) !important;
 }
 
 /* esto hace parte del plugin ldavid para visualización de tópicos, estas lineas son sacadas del css original de ese plugin
