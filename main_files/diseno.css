@@ -1,5 +1,5 @@
 body {
-    background-image: url(../main_img/header.jpg);
+    background-image: url(../main_img/header.png);
     background-repeat: no-repeat;
     background-size: 1680px 768px;
 }
@@ -73,7 +73,7 @@ h2
 #TOC .tocify-header 
 {
     /* text-indent: 10px; */
-    border-bottom-color: black !important;
+    border-bottom-color: #B2D235 !important;
     border-bottom-width: 1px !important;
     border-bottom-style: solid !important;
     /* background-color: #E3E3E3 !IMPORTANT; */
@@ -100,7 +100,7 @@ h2
     padding-left: 19px;   
      min-height: 111px;
      
-    background-color: black;
+    background-color: #B2D235;
 }
 
 .headerMenu p
@@ -111,8 +111,8 @@ h2
 .subcontenedorMenu
 {
     padding: 10px 21px;
-    background-color: #e3e3e3cc;
-    height: calc(100vh - 121px - 82px);   
+    background-color: rgba(255, 255, 255, 0.8);
+    height: calc(100vh - 111px - 82px);   
     min-height: 563px;
 }
 
@@ -120,13 +120,13 @@ h2
 {
     height: 82px;
     min-height: 82px;
-    background-color: black;
+    background-color: #B2D235;
 }
 
 .logoFidelio
 {
     margin-left: 20px;
-    margin-top: 25px;
+    margin-top: 16px;
 }
 
 #TOC .tocify-subheader 
