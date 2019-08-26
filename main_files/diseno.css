@@ -5,12 +5,12 @@ body {
 }
 h3, p
 {
-    font-family: 'Roboto';
+    font-family: 'Open-Sans';
 }
 
 h1, h2
 {
-    font-family: 'Coda';
+    font-family: 'Open-Sans';
 }
 
 /* separa los titulos de sección */
@@ -53,7 +53,7 @@ h2
 .container-fluid #TOC
 {
 
-    font-family: Roboto;
+    font-family: Open-Sans;
     font-size: 14px;
     font-weight: bold;    
     width: 213px;
@@ -100,7 +100,7 @@ h2
 {
     height: 111px;
     color: white;
-    font-family: Roboto;
+    font-family: Open-Sans;
     padding-top: 56px;
     font-size: 14px;
     padding-left: 19px;   
