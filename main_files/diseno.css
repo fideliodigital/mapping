@@ -247,3 +247,14 @@ Adicionalmente hay un js que borra el css original para que no cause conflictos 
   /* This is for nbviewer's benefit since the above wasn't enough... */
   .output_area { width:1450px !important; }
 
+/* barra de progreso */
+#_progress {
+    --scrollBarra: 0%;
+       background: linear-gradient( to right, #578c39 var(--scrollBarra), transparent 0 );
+    position: fixed;
+    width: calc(100% - 213px);
+    height: 5px;
+    top: 0px;
+    z-index: 100;
+    margin-left: 213px;
+}
