@@ -1,16 +1,17 @@
- body {
+body 
+{
     background-image: url(../main_img/header.png);
     background-repeat: no-repeat;
     background-size: 1680px 768px;
 }
 h3, p
 {
-    font-family: 'Open-Sans';
+    font-family:'Open-Sans';
 }
 
 h1, h2
 {
-    font-family: 'Open-Sans';
+    font-family:'Open-Sans';
 }
 
 /*esto hace que el sitio no se muestre si no hay password*/
