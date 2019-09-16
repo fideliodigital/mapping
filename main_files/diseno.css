@@ -4,7 +4,7 @@ body
     background-repeat: no-repeat;
     background-size: 1680px 768px;
 }
-h3, p, li, h4, h5
+h3, p, li, h4, h5, text
 {
     font-family:'Open Sans';
 }
